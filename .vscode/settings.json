@@ -1,0 +1,115 @@
+{
+    // ─── General VS Code Settings ──────────────────────────────
+    "window.zoomLevel": 2,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "extensions.ignoreRecommendations": true,
+
+    // ─── Theme & Icons ─────────────────────────────────────────
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // ─── UI Layout ─────────────────────────────────────────────
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.showTabs": "single",
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "window.commandCenter": false,
+
+    // ─── Explorer ──────────────────────────────────────────────
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+
+    // ─── Code Map & Decorations ─────────────────────────────────
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.colorDecorators": false,
+    "editor.codeLens": false,
+    "editor.links": false,
+    "editor.matchBrackets": "never",
+    "editor.lightbulb.enabled": "off",
+
+    // ─── Terminal ──────────────────────────────────────────────
+    "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    // ─── Font & Cursor Style ───────────────────────────────────
+    "editor.fontFamily": "CaskaydiaMono Nerd Font",
+    "custom-ui-style.font.sansSerif": "CaskaydiaMono Nerd Font",
+    "editor.fontSize": 14,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+
+    // ─── Gradient Cursor ───────────────────────────────────────
+    "custom-ui-style.stylesheet": {
+        ".monaco-editor .cursors-layer .cursor":
+            "background-image: linear-gradient(135deg, #FFA657 10%, #f77169 100%)"
+    },
+
+    // ─── Colors (GitHub Dark Default) ──────────────────────────
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000000",
+
+        // Hide all extra indicators in the Overview Ruler
+        "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+        "editorOverviewRuler.selectionHighlightForeground": "#0000",
+        "editorOverviewRuler.rangeHighlightForeground": "#0000",
+        "editorOverviewRuler.wordHighlightForeground": "#0000",
+        "editorOverviewRuler.bracketMatchForeground": "#0000",
+        "editorOverviewRuler.findMatchForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000",
+        "editorOverviewRuler.warningForeground": "#0000",
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.errorForeground": "#0000",
+        "editorOverviewRuler.infoForeground": "#0000",
+        "editorOverviewRuler.border": "#0000",
+
+        // Sidebar & Suggestion highlight color
+        "[GitHub Dark Default]": {
+            "editorSuggestWidget.selectedBackground": "#FFA65760",
+            "sideBar.background": "#0D1117"
+        }
+    },
+
+    // ─── File & Save Settings ──────────────────────────────────
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+
+    // ─── Indentation & Highlighting ─────────────────────────────
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.showFoldingControls": "never",
+    "editor.guides.indentation": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+
+    // ─── Scrollbars ─────────────────────────────────────────────
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+
+    // ─── Autocomplete ──────────────────────────────────────────
+    "editor.tabCompletion": "on",
+    "scm.diffDecorations": "none",
+
+    // ─── Security ──────────────────────────────────────────────
+    "security.workspace.trust.untrustedFiles": "open",
+
+    // ─── Custom UI Style / Animations ──────────────────────────
+    "animations.Install-Method": "Custom UI Style",
+    "custom-ui-style.external.imports": [
+        "file:///c:/Users/mykytakuzminov/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ]
+}
