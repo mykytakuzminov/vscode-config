@@ -58,6 +58,7 @@
     // ─── Colors (GitHub Dark Default) ──────────────────────────
     "workbench.colorCustomizations": {
         "editorCursor.background": "#000000",
+        "editor.selectionBackground": "#FFA65760",
 
         // Hide all extra indicators in the Overview Ruler
         "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
