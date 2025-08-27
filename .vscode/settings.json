@@ -20,11 +20,13 @@
     "material-icon-theme.hidesExplorerArrows": true,
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.renderIndentGuides": "none",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
     "explorer.compactFolders": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "explorer.decorations.badges": false,
     "git.decorations.enabled": false,
+    "git.openRepositoryInParentFolders": "never",
 
     // ─── Code Map & Decorations ─────────────────────────────────
     "editor.minimap.enabled": false,
@@ -79,6 +81,20 @@
         }
     },
 
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment",
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+
     // ─── File & Save Settings ──────────────────────────────────
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
@@ -111,5 +127,5 @@
     "animations.Install-Method": "Custom UI Style",
     "custom-ui-style.external.imports": [
         "file:///c:/Users/mykytakuzminov/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
-    ]
+    ],
 }
